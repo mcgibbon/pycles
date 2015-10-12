@@ -429,6 +429,7 @@ def DYCOMS_RF01():
 
     namelist['scalar_transport'] = {}
     namelist['scalar_transport']['order'] = 7
+    namelist['scalar_transport']['mp'] = 1
 
     namelist['damping'] = {}
     namelist['damping']['scheme'] = 'Rayleigh'
